@@ -6,10 +6,15 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            sbyte valor = 123;
-            Console.WriteLine("Valor: " + valor);
-            SByte valor1 = 121;
-            Console.WriteLine("Valor1: " + valor1);
+            byte n1 = 126;
+            int n2 = 1000;
+            int n3 = 2147483647;
+            long n4 = 2147483648L;
+
+            Console.WriteLine(n1);
+            Console.WriteLine(n2);
+            Console.WriteLine(n3);
+            Console.WriteLine(n4);
 
         }
     }
