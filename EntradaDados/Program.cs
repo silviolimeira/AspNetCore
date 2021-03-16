@@ -7,35 +7,27 @@ namespace EntradaDados
     {
         static void Main(string[] args)
         {
-            string nome;
-            int quartos;
-            decimal preco;
-            string dados;
-            string[] vet;
-            string ultimoNome;
-            int idade;
-            float altura;
             Console.WriteLine("Entre com seu nome completo: ");
-            nome = Console.ReadLine();
+            string fullName = Console.ReadLine();
             Console.WriteLine("Quantos quartos tem na sua casa: ");
-            quartos = int.Parse(Console.ReadLine());
+            int bedrooms = int.Parse(Console.ReadLine());
             Console.WriteLine("Entre com o preço do produto: ");
-            preco = decimal.Parse(Console.ReadLine());
+            //decimal price = decimal.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            decimal price = decimal.Parse(Console.ReadLine());
             Console.WriteLine("Entre com o último nome, idade, altura (mesma linha):");
-            dados = Console.ReadLine();
-            vet = dados.Split(' ');
-            ultimoNome = vet[0];
-            idade = int.Parse(vet[1]);
-            altura = float.Parse(vet[2]);
+            string[] vect = Console.ReadLine().Split(' ');
+            string lastName = vect[0];
+            int age = int.Parse(vect[1]);
+            double height = double.Parse(vect[2], CultureInfo.InvariantCulture);
 
             Console.WriteLine("=== Saída ===");
-            Console.WriteLine(nome);
-            Console.WriteLine(quartos);
-            Console.WriteLine(preco);
-            Console.WriteLine(ultimoNome);
-            Console.WriteLine(idade);
-            Console.WriteLine(altura);
-            Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine(fullName);
+            Console.WriteLine(bedrooms);
+            Console.WriteLine(price.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine(lastName);
+            Console.WriteLine(age);
+            Console.WriteLine(height);
+            Console.WriteLine(height.ToString("F2", CultureInfo.InvariantCulture));
 
         }
     }
