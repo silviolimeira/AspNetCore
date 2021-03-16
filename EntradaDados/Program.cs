@@ -7,7 +7,7 @@ namespace EntradaDados
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*** Entre com seu nome completo: ");
+            Console.WriteLine("**** Entre com seu nome completo: ");
             string fullName = Console.ReadLine();
             Console.WriteLine("Quantos quartos tem na sua casa: ");
             int bedrooms = int.Parse(Console.ReadLine());
