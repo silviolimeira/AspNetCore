@@ -8,7 +8,7 @@ namespace Exercicio02
         {
             Console.WriteLine("Digite um número: ");
             double numero = double.Parse(Console.ReadLine());
-            while (numero > 0)
+            while (numero > 0.0)
             {
                 Console.WriteLine(Math.Sqrt(numero).ToString("F3"));
                 Console.Write("Digite outro número: ");

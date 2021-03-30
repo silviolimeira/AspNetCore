@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace GenericExample.Services
+{
+    class CalculationService
+    {
+        public T Max<T>(List<T> list) where T : IComparable
+        {
+            // where T: struct
+            // where T: class
+            // where T: unmanaged
+            // where T: new()
+            // where T: <base type name>
+            // where T: U
+            if (list.Count == 0)
+            {
+                throw new ArgumentException("The list can not be empty");
+            }
+            T max = list[0];
+            for (int i = 1; i < list.Count; i++)
+            {
+                if (list[i].CompareTo(max) > 0)
+                {
+                    max = list[i];
+                }
+            }
+            return max;
+        }
+    }
+}
