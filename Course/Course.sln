@@ -59,63 +59,65 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeSpanExample", "..\TimeS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumExample", "..\EnumExample\EnumExample.csproj", "{15755ABC-33D4-4874-9670-DDBFA65128A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionExample", "..\CompositionExample\CompositionExample.csproj", "{D4B3FA2E-4350-4735-8644-36504F55D521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositionExample", "..\CompositionExample\CompositionExample.csproj", "{D4B3FA2E-4350-4735-8644-36504F55D521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExample", "..\StringBuilderExample\StringBuilderExample.csproj", "{5BE35DAB-D568-4A35-8536-CC9973EC1B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderExample", "..\StringBuilderExample\StringBuilderExample.csproj", "{5BE35DAB-D568-4A35-8536-CC9973EC1B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos", "..\Pedidos\Pedidos.csproj", "{B7B8DA48-28AE-46C7-AEDB-0B35B6683AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedidos", "..\Pedidos\Pedidos.csproj", "{B7B8DA48-28AE-46C7-AEDB-0B35B6683AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise1", "..\Enterprise1\Enterprise1.csproj", "{6A9D78AF-93CB-4124-B0EF-8058BF02B704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterprise1", "..\Enterprise1\Enterprise1.csproj", "{6A9D78AF-93CB-4124-B0EF-8058BF02B704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation", "..\Reservation\Reservation.csproj", "{0A1CDD7F-205E-4205-90A9-82DB62D94BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation", "..\Reservation\Reservation.csproj", "{0A1CDD7F-205E-4205-90A9-82DB62D94BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndFileInfo", "..\FileAndFileInfo\FileAndFileInfo.csproj", "{6F61A404-64F2-47E9-96EA-8BC84EEBD834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAndFileInfo", "..\FileAndFileInfo\FileAndFileInfo.csproj", "{6F61A404-64F2-47E9-96EA-8BC84EEBD834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamAndStreamReader", "..\FileStreamAndStreamReader\FileStreamAndStreamReader.csproj", "{F700357A-6C0C-4BCC-A64D-4BA2DAA35BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStreamAndStreamReader", "..\FileStreamAndStreamReader\FileStreamAndStreamReader.csproj", "{F700357A-6C0C-4BCC-A64D-4BA2DAA35BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUsingBlock", "..\FileUsingBlock\FileUsingBlock.csproj", "{B398D81B-B89F-409D-AB47-9DB06E7A0EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUsingBlock", "..\FileUsingBlock\FileUsingBlock.csproj", "{B398D81B-B89F-409D-AB47-9DB06E7A0EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamWriter", "..\FileStreamWriter\FileStreamWriter.csproj", "{83745296-8F9B-4C89-82AC-10A584D9CE23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStreamWriter", "..\FileStreamWriter\FileStreamWriter.csproj", "{83745296-8F9B-4C89-82AC-10A584D9CE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndDirectoryInfo", "..\DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{266C38E5-A279-4C63-9C53-CC8FAE1193D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryAndDirectoryInfo", "..\DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{266C38E5-A279-4C63-9C53-CC8FAE1193D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathExample", "..\PathExample\PathExample.csproj", "{EAF2F340-9D8C-4FED-B6A1-0A85DE64A40D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathExample", "..\PathExample\PathExample.csproj", "{EAF2F340-9D8C-4FED-B6A1-0A85DE64A40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample", "..\InterfaceExample\InterfaceExample.csproj", "{5B669FBC-D139-4BB0-A673-40C1E0DD023B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample", "..\InterfaceExample\InterfaceExample.csproj", "{5B669FBC-D139-4BB0-A673-40C1E0DD023B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IComparableExample", "..\IComparableExample\IComparableExample.csproj", "{DFDE306B-58B0-41F9-8287-79C2E8877CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IComparableExample", "..\IComparableExample\IComparableExample.csproj", "{DFDE306B-58B0-41F9-8287-79C2E8877CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericExample", "..\GenericExample\GenericExample.csproj", "{137CA617-DE46-4466-97AD-99588D94FAA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericExample", "..\GenericExample\GenericExample.csproj", "{137CA617-DE46-4466-97AD-99588D94FAA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualsAndHashCode", "..\EqualsAndHashCode\EqualsAndHashCode.csproj", "{8B11A39C-A9B9-4E31-B9E6-0F116F165F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualsAndHashCode", "..\EqualsAndHashCode\EqualsAndHashCode.csproj", "{8B11A39C-A9B9-4E31-B9E6-0F116F165F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetAndSortedSet", "..\HashSetAndSortedSet\HashSetAndSortedSet.csproj", "{433802D1-DACD-403D-BFD5-1CFF0CA21A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetAndSortedSet", "..\HashSetAndSortedSet\HashSetAndSortedSet.csproj", "{433802D1-DACD-403D-BFD5-1CFF0CA21A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashExampleComprareEquality", "..\HashExampleComprareEquality\HashExampleComprareEquality.csproj", "{1C580227-9605-49ED-A4AD-28CC51EE02FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashExampleComprareEquality", "..\HashExampleComprareEquality\HashExampleComprareEquality.csproj", "{1C580227-9605-49ED-A4AD-28CC51EE02FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConjuntSet", "..\ConjuntSet\ConjuntSet.csproj", "{BE97AB5E-B2A3-47DC-A300-061F8B44B613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConjuntSet", "..\ConjuntSet\ConjuntSet.csproj", "{BE97AB5E-B2A3-47DC-A300-061F8B44B613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryExample", "..\DictionaryExample\DictionaryExample.csproj", "{1F2C59D9-E8EA-4075-ADF0-057C2F4D2AD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryExample", "..\DictionaryExample\DictionaryExample.csproj", "{1F2C59D9-E8EA-4075-ADF0-057C2F4D2AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "..\ExtensionMethod\ExtensionMethod.csproj", "{54C41837-C2B1-468D-9AD2-CAEEC563C028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "..\ExtensionMethod\ExtensionMethod.csproj", "{54C41837-C2B1-468D-9AD2-CAEEC563C028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonExample", "..\ComparisonExample\ComparisonExample.csproj", "{E30ED048-49F3-4FCA-AAA5-F2DEC712DCEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparisonExample", "..\ComparisonExample\ComparisonExample.csproj", "{E30ED048-49F3-4FCA-AAA5-F2DEC712DCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExample", "..\DelegateExample\DelegateExample.csproj", "{95498C4C-3DAF-4845-857F-222A91E501E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExample", "..\DelegateExample\DelegateExample.csproj", "{95498C4C-3DAF-4845-857F-222A91E501E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatePredicate", "..\DelegatePredicate\DelegatePredicate.csproj", "{E3074CDF-448B-4ECC-A490-E15BD2280CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatePredicate", "..\DelegatePredicate\DelegatePredicate.csproj", "{E3074CDF-448B-4ECC-A490-E15BD2280CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionExample", "..\ActionExample\ActionExample.csproj", "{4D475360-34B4-4A9F-9F74-E9B70EEA09B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionExample", "..\ActionExample\ActionExample.csproj", "{4D475360-34B4-4A9F-9F74-E9B70EEA09B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateFunc", "..\DelegateFunc\DelegateFunc.csproj", "{4736BBAB-62C6-451D-99FC-8E5BE45FE14F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateFunc", "..\DelegateFunc\DelegateFunc.csproj", "{4736BBAB-62C6-451D-99FC-8E5BE45FE14F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExample", "..\LINQExample\LINQExample.csproj", "{52B766CD-EC6B-4D1A-809C-475AE05A8020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQExample", "..\LINQExample\LINQExample.csproj", "{52B766CD-EC6B-4D1A-809C-475AE05A8020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQWithLambda", "..\LINQWithLambda\LINQWithLambda.csproj", "{400C0155-B7D1-4132-B2AE-3D972396F85F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQWithLambda", "..\LINQWithLambda\LINQWithLambda.csproj", "{400C0155-B7D1-4132-B2AE-3D972396F85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExercise", "..\LINQExercise\LINQExercise.csproj", "{8ECFE60C-E196-4130-B90B-D6708167BF36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQExercise", "..\LINQExercise\LINQExercise.csproj", "{8ECFE60C-E196-4130-B90B-D6708167BF36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesWebMVC", "..\SalesWebMVC\SalesWebMVC.csproj", "{E08C8A68-F1CD-40E7-9741-33A43B4A4B2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesWebMVC", "..\SalesWebMVC\SalesWebMVC.csproj", "{E08C8A68-F1CD-40E7-9741-33A43B4A4B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "..\WebApplication1\WebApplication1.csproj", "{C6325A36-741C-4CC7-9976-4EB43E3E6702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,10 @@ Global
 		{E08C8A68-F1CD-40E7-9741-33A43B4A4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08C8A68-F1CD-40E7-9741-33A43B4A4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08C8A68-F1CD-40E7-9741-33A43B4A4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6325A36-741C-4CC7-9976-4EB43E3E6702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6325A36-741C-4CC7-9976-4EB43E3E6702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6325A36-741C-4CC7-9976-4EB43E3E6702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6325A36-741C-4CC7-9976-4EB43E3E6702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
