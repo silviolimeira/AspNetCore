@@ -10,7 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using SalesWebMVC.Models;
 using SalesWebMVC.Data;
+using SalesWebMVC.Services;
 
 namespace SalesWebMVC
 {
@@ -42,6 +44,7 @@ namespace SalesWebMVC
 
             // register SeedingService for dependency injection system
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
